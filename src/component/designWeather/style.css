@@ -1,0 +1,126 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.main{
+    margin-top: 70px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.sub{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.item{
+    height: 24px;
+    width: 70%;
+    border: 1px solid #000000;
+    border-right: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchBtn{
+    height: 27px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 80%;
+    width: 50%;
+    border-radius: 2%;
+    min-width: 500px;
+}
+
+.weathericon{
+    padding-top: 20px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.weatherinfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 35% ;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #080705;
+    color: white;
+    margin-bottom: 17px;
+}
+
+.temprature{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.weatherCondition{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.place{
+    font-size: 15px;
+}
+
+.date{
+    height: 100%;
+    width: 30%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: crimson;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.bottomDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.extraDetailInfo{
+    padding-right: 7px;
+}
